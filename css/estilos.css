@@ -73,20 +73,14 @@ a{
 
 /*Catalogo*/
 
-.viajescards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px 30px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+.viajescards1{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
     
-}
-
-#titulo_ofertas{
-        color: white;
-        text-align: center;
 }
 
 .card{
@@ -104,10 +98,7 @@ a{
     padding-left: 10px;
 }
 
-#boton{
-    float: right;
-    border-radius: 5px;
-}
+
 
 .card .boton button{
     border-radius: 8px;
@@ -116,5 +107,16 @@ a{
     float: right;
     background-color: white;
     border-color: white;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    
     
 }
+
+#card1{
+    grid-column: 1/4;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
