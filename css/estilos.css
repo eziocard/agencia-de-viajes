@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #A9C256;
+}
+
+/*estilos de navegador*/
+nav{
+    position: fixed;
+    background-color: #CFAC57;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+nav ul{
+    display: inline-block;    
+    list-style: none;  
+}
+
+li{
+    padding-right: 25px;
+    float: left;
+}
+
+a:any-link{
+    color: white;      
+}                       
+a:-webkit-any-link{     
+    color: white      
+}                      
+a:-moz-any-link{       
+    color: white      
+}
+
+a:hover{
+    color: #60CDAC;
+}
+a{
+    font-size: 26px;
+    text-decoration: none;
+}
+
+/*fin de estilos del navegador*/
+
+/*estilos seccion inicio*/
+
+/*INICIO*/
+
+#inicio{
+    
+    background-image: url(../imagenes/inicio.png) ;
+    min-height: 280px;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-bottom: 1px solid white;
+}
+
+#titulo_inicio{
+    color: white;
+    text-align: center;
+    font-size: 200px;
+    padding-bottom: 100px;
+    
+}
+
+/*FIN INICIO*/
+
+/*Catalogo*/
+
+.viajescards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+#titulo_ofertas{
+        color: white;
+        text-align: center;
+}
+
+.card{
+    width: 250px;
+    background-color: #E9AD49;
+    border-radius: 15px;
+}
+
+.card h3{
+    color: white;
+    padding-left: 10px;
+}
+.card h4{
+    color:white;
+    padding-left: 10px;
+}
+
+#boton{
+    float: right;
+    border-radius: 5px;
+}
+
+.card .boton button{
+    border-radius: 8px;
+    height: 40px;
+    width: 80px;
+    float: right;
+    background-color: white;
+    border-color: white;
+    
+}
