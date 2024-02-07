@@ -174,11 +174,10 @@ a{
     align-items: center;
 }
 
-
-#pie{
-    display: grid;
-    grid-template-columns: 50% 50%; 
-    gap: 10px;
+#sobrenosotros{
+    border: 1px solid #F7C47B;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #sobrenosotros h2, #contacto h2{
@@ -186,13 +185,14 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
-    font-size: 50px;
+    font-size: 100px;
     
 }
 #sobrenosotros p{
     color: white;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .itemform{
