@@ -4,6 +4,7 @@
 }
 body{
     background-color: #A9C256;
+    font: 100 14px 'inter', sans-serif;
 }
 
 /*estilos de navegador*/
@@ -174,10 +175,14 @@ a{
     align-items: center;
 }
 
+/*fin catalogo*/
+
+/*quienes somo?*/
 #sobrenosotros{
     border: 1px solid #F7C47B;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 #sobrenosotros h2, #contacto h2{
@@ -194,7 +199,13 @@ a{
     margin-left: 100px;
     margin-right: 100px;
 }
+iframe{
+    margin-top: 30px;
+}
 
+/* fin quienes somos?*/
+
+/*formulario*/
 .itemform{
     display: grid;
     grid-template-columns: 150px 350px;
@@ -221,3 +232,9 @@ input[type="submit"]{
     justify-self: end;
 }
 
+footer, footer a{
+    text-align: center;
+    font-size: 60px;
+}
+
+/*fin formulario*/
